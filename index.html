@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Lottó</title>
+</head>
+<body>
+    <div class="container">
+        <a href="index.html"><img src="https://bet.szerencsejatek.hu/assets/f9c9bfb0/29a16833/img/top-banner/lotto5.png" alt="Lottó" title="Lottó"></a>
+        <h3>Adj meg 5 számot:</h3>
+        <h3 id="doNotDisplay"></h3>
+        <div class="inputRow">
+            <label for="num1">1.</label>
+            <input type="number" id="num1" min="1" max="90" size="2" value="">
+            <label for="num2">2.</label>
+            <input type="number" id="num2" min="1" max="90" size="2" value="">
+            <label for="num3">3.</label>
+            <input type="number" id="num3" min="1" max="90" size="2" value="">
+            <label for="num4">4.</label>
+            <input type="number" id="num4" min="1" max="90" size="2" value="">
+            <label for="num5">5.</label>
+            <input type="number" id="num5" min="1" max="90" size="2" value="">
+        </div>
+        <button onclick="getData()">Sorsolás!</button>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
